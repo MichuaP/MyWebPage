@@ -1,0 +1,56 @@
+<section class="pb-20" id="contact">
+    <div
+        class="rounded-3xl bg-slate-900 dark:bg-primary/10 p-8 md:p-16 flex flex-col lg:flex-row gap-12 items-center text-white">
+        <div class="lg:w-1/2 space-y-6">
+            <h2 class="text-4xl font-black tracking-tight">Let's Connect</h2>
+            <p class="text-slate-300 text-lg leading-relaxed">
+                Looking for a technical partner to build your infrastructure or create a reliable automation
+                framework? Let's discuss how I can help your team.
+            </p>
+            <div class="space-y-4">
+                <div class="flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+                        <span class="material-symbols-outlined text-sm">mail</span>
+                    </div>
+                    <a href="mailto:paulacruzl@outlook.es" class="text-slate-300">paulacruzl@outlook.es</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+                        <span class="material-symbols-outlined text-sm">location_on</span>
+                    </div>
+                    <span class="text-slate-300" data-location="San Francisco, CA">Aguascalientes, MEX</span>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/2 w-full">
+            <form class="bg-white rounded-2xl p-6 md:p-8 space-y-4 text-slate-900 shadow-2xl" action="https://formspree.io/f/meozlzkz" method="POST">
+                <div>
+                    <label class="block text-sm font-bold mb-1">Name</label>
+                    <input 
+                        name="name"
+                        class="w-full rounded-lg border-slate-200 focus:ring-primary focus:border-primary px-4 py-2"
+                        placeholder="Your Name" type="text"/>
+                </div>
+                <div>
+                    <label class="block text-sm font-bold mb-1">Email</label>
+                    <input 
+                        name="email"
+                        class="w-full rounded-lg border-slate-200 focus:ring-primary focus:border-primary px-4 py-2"
+                        placeholder="your@email.com" type="email"/>
+                </div>
+                <div>
+                    <label class="block text-sm font-bold mb-1">Message</label>
+                    <textarea
+                        name="message"
+                        class="w-full rounded-lg border-slate-200 focus:ring-primary focus:border-primary px-4 py-2"
+                        placeholder="How can I help you?" rows="4"></textarea>
+                </div>
+                <button
+                    class="w-full bg-primary text-white font-bold py-3 rounded-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/30"
+                    type="submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
